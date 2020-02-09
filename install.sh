@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd ~/
+rm -rf bashtemp
 mkdir bashtemp
 
 cd bashtemp
@@ -26,5 +27,3 @@ rm -rf bashtemp
 
 printf "Если у тебя нечего не скачалось то ты значит не имеешь права на это))
 проси чтобы твой ключь добавил в репо его создатель"
-
-
