@@ -16,14 +16,14 @@ chmod 777 docker-logps.sh
 chmod 777 man.sh
 
 cd ~/bashtemp/bash-customs
-mv my-bash-scripts ~/my-bash-scripts
+cp -r my-bash-scripts ~/
 
 cd ~/bashtemp/bash-customs
-mv .bash_profile ~/.bash_profile
+cp -r .bash_profile ~/.bash_profile
 
 cd ~/
 source ~/.bash_profile
 rm -rf bashtemp
 
 printf "Если у тебя нечего не скачалось то ты значит не имеешь права на это))
-проси чтобы твой ключь добавил в репо его создатель"
+проси чтобы твой ключь добавил в репо его создатель\n"
