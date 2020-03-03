@@ -27,13 +27,13 @@ printf "прописал супер права для паапки my-bash-scrip
 
 cd ~/bashtemp/bash-customs
 printf "перешел в папку ~/bashtemp/bash-customs\n"
-cp -r .bashrc ~/.bashrc
-printf "скопировал .bashrc в home дерикторию по пути ~/.bashrc\n"
+cp -r .bash_profile ~/.bash_profile
+printf "скопировал .bash_profile в home дерикторию по пути ~/.bash_profile\n"
 
 cd ~/
 printf "перешел в home дерикторию\n"
-source ~/.bashrc
-printf "выполнил команду source ~/.bashrc\n"
+source ~/.bash_profile
+printf "выполнил команду source ~/.bash_profile\n"
 rm -rf bashtemp
 printf "удалил папку ~/bashtemp/\n"
 
