@@ -7,16 +7,11 @@ mkdir bashtemp
 cd bashtemp
 git clone git@github.com:merelyigor/bash-customs.git
 
-cd ~/bashtemp/bash-customs/my-bash-scripts
-chmod 777 change_hosts.sh
-chmod 777 devilbox.sh
-chmod 777 docker-exec.sh
-chmod 777 docker-logls.sh
-chmod 777 docker-logps.sh
-chmod 777 man.sh
-
 cd ~/bashtemp/bash-customs
 cp -r my-bash-scripts ~/
+
+cd ~/
+chmod -R 777 my-bash-scripts/
 
 cd ~/bashtemp/bash-customs
 cp -r .bash_profile ~/.bash_profile
