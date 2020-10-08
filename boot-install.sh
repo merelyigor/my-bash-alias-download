@@ -3,6 +3,8 @@
 #========================INSTALL SCRIPT=======2.0
 #----------------------------------------------
 
+sudo chsh -s /bin/bash
+
 cd ~/
 printf "went to home directory
 "
