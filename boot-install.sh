@@ -56,3 +56,5 @@ printf "deleted the folder ~/bashtemp/
 printf "If you have nothing downloaded, then you do not have the right to do this))
 ask the creator to add your key to the repo
 "
+
+source ~/.bash_profile
