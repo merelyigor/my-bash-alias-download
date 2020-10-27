@@ -57,4 +57,6 @@ printf "If you have nothing downloaded, then you do not have the right to do thi
 ask the creator to add your key to the repo
 "
 
+printf "pleace run the command ( source ~/.bash_profile )"
+
 source ~/.bash_profile
